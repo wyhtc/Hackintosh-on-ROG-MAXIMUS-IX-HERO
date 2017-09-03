@@ -72,10 +72,10 @@
 		<string>darkwake=no</string>
 		<key>DefaultVolume</key>
 		<string>Macintosh HD</string>
+		<key>Fast</key>
+		<true/>
 		<key>Legacy</key>
 		<string>PBR</string>
-		<key>Timeout</key>
-		<integer>-1</integer>
 		<key>XMPDetection</key>
 		<string>Yes</string>
 	</dict>
