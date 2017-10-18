@@ -1,0 +1,57 @@
+
+Clover EFI installer log - Mon Oct  9 19:20:08 CST 2017
+Installer version: v2.4k r4243 EFI bootloader
+======================================================
+/dev/disk0 (internal):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                         256.1 GB   disk0
+   1:           Windows Recovery                         471.9 MB   disk0s1
+   2:                        EFI WINDOWS EFI             102.8 MB   disk0s2
+   3:         Microsoft Reserved                         16.8 MB    disk0s3
+   4:       Microsoft Basic Data 系统卷                  255.5 GB   disk0s4
+
+/dev/disk1 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *128.0 GB   disk1
+   1:                        EFI EFI                     209.7 MB   disk1s1
+   2:                 Apple_APFS Container disk4         127.8 GB   disk1s2
+
+/dev/disk2 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *3.0 TB     disk2
+   1:         Microsoft Reserved                         134.2 MB   disk2s1
+   2:       Microsoft Basic Data 程序                    1.4 TB     disk2s2
+   3:       Microsoft Basic Data 文件存放                1.4 TB     disk2s3
+   4:       Microsoft Basic Data 系统备份                139.3 GB   disk2s4
+
+/dev/disk3 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *1.0 TB     disk3
+   1:                        EFI EFI                     209.7 MB   disk3s1
+   2:                  Apple_HFS Mac文件存放             999.9 GB   disk3s2
+
+/dev/disk4 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +127.8 GB   disk4
+                                 Physical Store disk1s2
+   1:                APFS Volume Macintosh HD            47.8 GB    disk4s1
+   2:                APFS Volume Preboot                 21.6 MB    disk4s2
+   3:                APFS Volume Recovery                520.0 MB   disk4s3
+   4:                APFS Volume VM                      2.1 GB     disk4s4
+
+======================================================
+Backing up EFI files
+
+Backing up stage2 file /Volumes/Macintosh HD/EFIROOTDIR/boot  to /Volumes/Macintosh HD/EFI-Backups/r0000/2017-10-09-19h20/boot
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+Stage 2 - Written boot6 (x64) to //boot
+
+Theme 'metal' (defined in config.plist) not found !
+Using default theme 'random'
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
